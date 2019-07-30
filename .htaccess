@@ -1,0 +1,3 @@
+RewriteCond %{HTTP_HOST} ^https://www.njevric.github.io/csasecond$
+
+RewriteRule ^/?$ "https://njevric.github.io/csasecond/" [R=301,L]
