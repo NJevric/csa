@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^post/([0-9]+)(:?\/[a-zA-Z0-9_]*)?(:?\/.*)?$ /index.php?id=$1
+RewriteRule ^post/([a-zA-Z]+)/([0-9]+)(:?\/[a-zA-Z0-9_]*)?(:?\/.*)?$ /index.php?filter=$1&value=$2
