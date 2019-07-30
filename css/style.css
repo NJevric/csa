@@ -339,6 +339,9 @@ footer h4{
 #about{
   padding-bottom: 50px;
 }
+#hidden{
+  display: none;
+}
 
 
 
